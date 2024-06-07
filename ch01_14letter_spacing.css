@@ -1,0 +1,21 @@
+h1{
+    text-align:center;
+    text-decoration: wavy red underline;
+    letter-spacing:2.5px;
+}
+
+p{
+    text-align:right;
+    text-decoration:blue overline;
+    letter-spacing:normal;
+}
+
+h2{
+    text-align:left;
+    text-decoration:pink line-through;
+}
+
+h3{
+    text-align:center;
+    text-decoration:dotted line-through;
+}
