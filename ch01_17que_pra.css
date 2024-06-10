@@ -1,0 +1,19 @@
+h1{
+    font-family:league-spartan;
+    /* to set the color of text we use */
+    color:#ffa511;
+    /* for center align the text */
+    text-align:center;
+    /* for text size */
+    font-size:55px;
+    /* for font weight */
+    font-weight:900;
+    /* for spacing */
+    letter-spacing:20px;
+    /* for line-height */
+    line-height:1.5px;
+    /* add teal(color) double underline(text-decoration) */
+    text-decoration:teal double underline;
+    /*uppercase all letters  */
+    text-transform:uppercase;
+}

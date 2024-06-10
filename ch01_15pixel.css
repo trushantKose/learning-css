@@ -1,0 +1,22 @@
+h1{
+    text-align:center;
+    text-decoration:red underline;
+    font-size:25px;
+}
+
+p{
+    text-align:left;
+    text-decoration:underline;
+    font-size:2px;
+    /* 2px is too small in size */
+}
+
+h2{
+    text-align:left;
+    text-decoration:blue underline;
+    font-size:20px;
+}
+
+h3{
+
+}
