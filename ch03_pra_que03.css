@@ -1,0 +1,14 @@
+/*Create a list of technologies -HTML, CSS, JavaScript, NodeJS, ReactJS,
+SQL, MongoDB, Java, C++, C & Python
+
+-Now change the display of all list items to inline to move them all in a single line
+-Did you notice something different? Try to find why the bullet points disappear*/
+
+ol{
+    display:inline;
+}
+
+/*li have their display property set to "list-item" by default 
+which makes them a bulleted list item
+When this property is reset by you to "inline", then the bullet point
+also disappear. In a way, we override the default settings with our CSS*/

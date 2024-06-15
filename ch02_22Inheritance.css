@@ -1,0 +1,10 @@
+div{
+    background-color:blue
+}
+/* paragraph inherited the property from div
+    ul inherited the property from paragraph
+    li inherited the property from the ul */
+
+p{
+    background-color: yellow;
+}

@@ -1,0 +1,6 @@
+/* attribute selector, checked pseudo selector and sibling */
+
+input[type="radio"]:checked + label{
+    color:red;
+    font-weight:bold;
+}

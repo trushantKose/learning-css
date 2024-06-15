@@ -1,0 +1,19 @@
+
+/* Border slides: To control an individual side of the box
+-border-left
+-border-right
+-border-top
+-border-bottom
+*/
+div{
+    height:200px;
+    width:500;
+    background-color: pink;
+    border:5px solid yellow;
+    /* border-left-color:blue;
+    border-left-style:dashed; */
+    border-top:5px dashed blue;
+}
+h1{
+    border:2px dotted green;
+}

@@ -1,0 +1,19 @@
+
+/* element selector */
+h1{
+    color:pink;
+}
+
+/* id selector */
+#greet{
+    color:yellow;
+}
+
+/* class selector */
+.myclass {
+    color:brown;
+}
+
+/* id > class > element selector
+i.e the output of hello is yellow b
+because priority is for id-selector */

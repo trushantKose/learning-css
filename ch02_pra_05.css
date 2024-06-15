@@ -1,0 +1,20 @@
+/* Select all buttons inside div and change 
+their background color to purple & text color to azure. */
+
+#mainTopic{
+    color:blue;
+}
+
+* {
+    text-align:center;
+}
+
+h1, h2, h3{
+    font-family:"Georgia";
+}
+
+/* using descendent change background color & text color */
+div button{
+    background-color:purple;
+    color:azure;
+}

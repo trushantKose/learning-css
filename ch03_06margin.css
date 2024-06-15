@@ -1,0 +1,27 @@
+/* Margin:- To set spacing on the outside of border
+(To control the space between two boxes we can use margin property.)
+-margin-left
+-margin-right
+-margin-top
+-margin-bottom */
+
+div{
+    height:200px;
+    width:500px;
+    background-color: pink;
+    border:5px solid black;
+    border-radius: 10px;
+    padding-top:10px;
+    /*
+    margin-bottom:25px;
+    margin-left: 20px; */
+    margin:20px; /*for all margin in same px*/
+}
+h1{
+    border:2px dashed green;
+}
+button{
+    background-color: yellow;
+    border:2px solid black;
+    padding:25px;
+}

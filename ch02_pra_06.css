@@ -1,0 +1,25 @@
+/*Change the button background-color to yellow &
+text color to blue when we hover over it */
+
+#mainTopic{
+    color:blue;
+}
+
+* {
+    text-align:center;
+}
+
+h1, h2, h3{
+    font-family:"Georgia";
+}
+
+div button{
+    background-color:purple;
+    color:azure;
+}
+
+/* hover on background-color & text  */
+button:hover{
+    background-color:yellow;
+    color:blue;
+}

@@ -1,0 +1,16 @@
+/* Pseudo-class using hover - pseudo class
+here button is a element and hover is a pseudo class */
+button:hover{
+    background-color:red;
+    color:white;
+}
+
+/* remove h3 underline after cursor hover from it */
+h3:hover{
+    text-decoration:none;
+}
+
+h3:hover{
+    text-decoration:overline;
+}
+

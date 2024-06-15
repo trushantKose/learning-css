@@ -1,0 +1,7 @@
+ /* By default, it sets the content area height of the document */
+
+div{
+    height:200px;
+    width:300px;
+    background-color: pink;
+}

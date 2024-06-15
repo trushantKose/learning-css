@@ -1,0 +1,13 @@
+/* first letter */
+h1::first-letter{
+    color:red;
+}
+/* first-line color change to purple  */
+p::first-line{
+    color:purple;
+}
+
+/* selection-pseudo-element */
+p::selection{
+    background-color: rgb(146, 203, 146);
+}

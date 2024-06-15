@@ -1,0 +1,26 @@
+/* we set heading block element into inline element */
+/* h2{
+    display:inline;
+    background-color: pink;
+} */
+
+/* we can set span inline element into block element */
+/* span{
+    display:block;
+    background-color: yellowgreen;
+} */
+
+span{
+    /* background-color: pink; */
+    border:2px solid black;
+    padding:50px; /*padding can only set on left & right side*/
+    margin:20px;  /*Margin can set only on left & right side*/
+}
+
+div{
+    height:100px;
+    width:200px;
+    border:2px solid black;
+    padding:50;
+    margin:20px;
+}

@@ -1,0 +1,32 @@
+/* Change the color of the first letter of h1 heading to red */
+
+#mainTopic{
+    color:blue;
+}
+
+* {
+    text-align:center;
+}
+
+h1, h2, h3{
+    font-family:"Georgia";
+}
+
+div button{
+    background-color:purple;
+    color:azure;
+}
+
+button:hover{
+    background-color:yellow;
+    color:blue;
+}
+
+p:nth-of-type(odd){
+    color:yellow;
+}
+
+/* using pseudo element change the color of first letter h1 heading */
+h1::first-letter{
+    color:red;
+}

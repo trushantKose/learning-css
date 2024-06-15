@@ -1,0 +1,29 @@
+/* Change the color of every odd numbered paragraph to yellow 
+(paragraph 1 & 3) */
+
+#mainTopic{
+    color:blue;
+}
+
+* {
+    text-align:center;
+}
+
+h1, h2, h3{
+    font-family:"Georgia";
+}
+
+div button{
+    background-color:purple;
+    color:azure;
+}
+
+button:hover{
+    background-color:yellow;
+    color:blue;
+}
+
+/* using nth-of-type change every odd para color */
+p:nth-of-type(odd){
+    color:yellow;
+}

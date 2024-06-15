@@ -1,0 +1,12 @@
+/* Align all the text in the page to the center
+using a universal selector */
+
+
+#mainTopic{
+    color:blue;
+}
+
+/* using universal selector all text in center */
+* {
+    text-align:center;
+}

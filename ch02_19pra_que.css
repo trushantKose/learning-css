@@ -1,0 +1,19 @@
+
+/* descendant selector 0 0 2 */
+div p{
+    background-color: black;
+}
+
+/* class selector 0 1 0*/
+.para{
+    background-color: blue;
+}
+
+/* element selector  0 0 1 */
+p{
+    background-color: greenyellow;
+}
+
+/* output:- paragraph color is blue because the 
+value of class selector is more i.e 10 
+specificity value is high  */

@@ -1,0 +1,10 @@
+/* 
+
+*/
+div:nth-of-type(2){
+    background-color:blanchedalmond;
+}
+
+div:nth-of-type(2n){
+    background-color:blanchedalmond;
+}

@@ -1,0 +1,21 @@
+/* Set the color of all the paragraphs to
+white & background color to cornflowerblue
+(without using the element selector-p) */
+
+#mainTopic{
+    color:blue;
+}
+
+* {
+    text-align:center;
+}
+
+h1, h2, h3{
+    font-family:"Georgia";
+}
+
+/*without selecting paragraph change background color by using .class selector  */
+.content{
+    background-color: cornflowerblue;
+    color:white;
+}

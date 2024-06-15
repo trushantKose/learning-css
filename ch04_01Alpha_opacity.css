@@ -1,0 +1,9 @@
+div{
+    height:200px;
+    width:200px;
+    /* alpha value is 1 i.e the red color is visible */
+    /* background-color: rgba(255,0,0,1); */
+
+    background-color: rgb(203, 203, 45,1);
+    /* red color not visible because alpha value is 0 */
+}

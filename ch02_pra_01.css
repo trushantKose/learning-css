@@ -1,0 +1,6 @@
+/*Give the h1 header a unique id-"mainTopic" & set its
+color to blue using the id selector.*/
+
+#mainTopic{
+    color:blue;
+}

@@ -1,0 +1,30 @@
+/*Create Div inside navbar height give 60px & background-color black and all text in white color
+-Create Button and gives them to background- color orange
+-Create 4-anchor elements
+-margin to anchor element is 200px */
+
+*{
+    border:0;
+    margin:0;
+    color:white;
+}
+
+#navbar{
+    height:60px;
+    background-color: black;
+}
+
+button{
+    background-color: orange;
+}
+
+#logo{
+    color:orange;
+    font-size:25px;
+}
+
+a{
+    margin-right:200px;
+    text-decoration: none;
+}
+

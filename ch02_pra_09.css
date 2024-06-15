@@ -1,0 +1,38 @@
+/* Set the text color of the checkbox label to dark green when the 
+checkbox is ticked */
+
+#mainTopic{
+    color:blue;
+}
+
+* {
+    text-align:center;
+}
+
+h1, h2, h3{
+    font-family:"Georgia";
+}
+
+div button{
+    background-color:purple;
+    color:azure;
+}
+
+button:hover{
+    background-color:yellow;
+    color:blue;
+}
+
+p:nth-of-type(odd){
+    color:yellow;
+}
+
+h1::first-letter{
+    color:red;
+}
+
+/* Set the text color of the checkbox label to dark green when the
+checkbox is ticked */
+#yes:checkbox + label{
+    color:darkgreen;
+}

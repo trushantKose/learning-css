@@ -1,0 +1,9 @@
+#myId p{
+    /* by using id selector and descendent */
+    color:green;
+}
+
+/* using attribute selector */
+input[id="myId"]{
+    color:green;
+}

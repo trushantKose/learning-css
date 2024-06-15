@@ -1,0 +1,15 @@
+/* Change the font style of all heading 
+tags in the page to "Georgia" */
+
+#mainTopic{
+    color:blue;
+}
+
+* {
+    text-align:center;
+}
+
+/* change the font-style in Georgia */
+h1, h2, h3{
+    font-family:"Georgia";
+}

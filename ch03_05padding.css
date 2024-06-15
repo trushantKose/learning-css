@@ -1,0 +1,29 @@
+/* padding-left: to set the padding into left we use this property
+    padding-right: to set the padding into right we use this property
+    padding-top: to set the padding into top we use this property
+    padding-bottom: to set the padding into bottom we use this property */
+
+div{
+    height:200px;
+    width:500px;
+    background-color: pink;
+    border:5px solid black;
+    border-radius: 10px;
+    padding-top:10px;
+}
+h1{
+    border:2px dashed green;
+}
+
+button{
+    background-color: yellow;
+    border:2px solid black;
+    /*
+    1 - padding:25px;
+    2 - padding: top & bottom(10px)| left & right (25px)
+        padding: 10px 25px
+    3 - padding: top()| right&left ()| bottom();
+        padding:10px 20px 30px;
+    4 - padding: top()| right()| bottom()| left() */
+    padding:10px 20px 30px 40px;
+}

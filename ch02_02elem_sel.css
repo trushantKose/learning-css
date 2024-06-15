@@ -1,0 +1,10 @@
+/* * is a universal selector */
+*{
+    font-family:"Courier new";
+}
+
+h1,h3{
+    color:#b92b27;
+}
+/* to gives color on multiple element at once time
+we can use , coma  */

@@ -1,0 +1,13 @@
+div{
+    height:200px;
+    width:200px;
+    background-color: #4dff00ff;
+    /*after complete 1-sec square change to circle */
+    transition:1s;
+}
+
+div:hover{
+    background-color: black;
+    /* for making border into circle for use 50% */
+    border-radius: 50%;
+}
