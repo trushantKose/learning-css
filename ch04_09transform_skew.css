@@ -1,0 +1,17 @@
+section{
+    margin:100px;
+}
+div{
+    height:50px;
+    width:200px;
+    text-align: center;
+    background-color:olive;
+    border:2px solid black;
+    margin:10px auto;
+}
+#one{
+    transform:skew(30deg);
+}
+#five{
+    transform:rotate(30deg) translateX(150px);
+}

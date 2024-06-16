@@ -1,0 +1,48 @@
+/* Translate property: we can translate our property
+translate means move along with X,Y  directly aco to 2d plane  */
+
+section{
+    margin-top:100px;
+}
+div{
+    width:200px;
+    height:50px;
+    text-align:center;
+    background-color: #7aa874;
+    border:2px solid black;
+    margin:10px auto;
+}
+
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+
+/* transform-rotate */
+#one{
+    transform:rotate(45deg);
+}
+
+/* Transform Scale Property */
+#two{
+    /* 0.5 denotes height & 2 denotes width */
+    transform:scale(2, 2);
+}
+
+#three{
+    /* change scale only for width */
+    transform:scaleX(0.5);
+}
+
+#four{
+        /* change scale only for height */
+    transform:scaleY(2);
+}
+
+#five{
+    /* translate : moves along x-dire is 100px & y- id 100px */
+    transform:translate(100px, 100px)
+}
