@@ -1,0 +1,11 @@
+/* background-image: Let you set an image as a background */
+div{
+    width:400px;
+    height:200px;
+    background-color: #7aa874;
+    margin:10px auto;
+    background-image:url("background_imge.jpeg");
+    background-size:cover;
+    color:white;
+}
+/* background-size: contain(repeat)/ cover(crop, cut)/ auto(stretch); */

@@ -1,12 +1,14 @@
+/* Transition:- it define the transition between two states of an element. */
 div{
     height:200px;
     width:200px;
     background-color: #4dff00ff;
     /*after complete 1-sec square change to circle */
-    transition:1s;
+    transition:2s;
 }
 
 div:hover{
+    /* background-color changes green to black after hover */
     background-color: black;
     /* for making border into circle for use 50% */
     border-radius: 50%;

@@ -1,0 +1,25 @@
+/* Position-static:- The offset is relative to itself based
+on the values of top, right, bottom, left all works */
+
+div{
+    height:100px;
+    width:100px;
+    background-color: green;
+    text-align:center;
+    border:2px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+#static{
+    background-color: yellow;
+    position:static;
+    top:100px;
+    left:100px;
+}
+#relative{
+    background-color: yellow;
+    position:relative;
+    top:100px;
+    left:100px;
+}

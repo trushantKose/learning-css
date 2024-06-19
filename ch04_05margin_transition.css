@@ -11,6 +11,7 @@ div{
 }
 
 div:hover{
+    /* after hover change the margin-top 10px to 400px */
     margin-top:400px;
     background-color: pink;
 }

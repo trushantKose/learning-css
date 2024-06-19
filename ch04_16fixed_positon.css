@@ -1,0 +1,33 @@
+/* Position-fixed:- The element is removed from the document flow,
+no space is created for the element in the page layout
+it is positioned relative to the initial containing block established by the viewport */
+div{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    background-color: green;
+    margin:20px;
+    display:inline-block;
+    text-align: center;
+}
+#static{
+    /* by default and no effect */
+    background-color: yellow;
+    position:static;
+    top:100px;
+    left:100px;
+}
+#relative{
+    /* space created and relative to itself */
+    background-color: yellow;
+    position:relative;
+    top:100px;
+    left:100px;
+}
+#absolute{
+    /* no space created and relative to its parent ancestor */
+    background-color: yellow;
+    position:absolute;
+    top:100px;
+    left:100px;
+}
