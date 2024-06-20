@@ -1,0 +1,56 @@
+#container{
+    height:600px;
+    width:80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+    align-content: flex-start;
+}
+
+#ora{
+    background-color: orange;
+    align-self: flex-start;
+    /* flex-basis: 50px; */
+    /* flex-grow:1; */
+    flex-shrink: 1;
+}
+#blu{
+    /* blue div going to 2 times shorter */
+    flex-shrink: 3;
+}
+
+h1{
+    text-align: center;
+}
+
+#container div{
+    height:100px;
+    width:300px;
+    color:white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#vio{
+    background-color: violet;
+}
+#ind{
+    background-color: indigo;
+}
+#blu{
+    background-color: blue;
+}
+#gre{
+    background-color: green;
+}
+#yel{
+    background-color: yellow;
+}
+
+#red{
+    background-color: red;
+}

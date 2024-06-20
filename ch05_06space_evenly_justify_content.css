@@ -1,0 +1,42 @@
+#container{
+    width: 80%px;
+    height: 300px;
+    background-color: azure;
+    margin:10px auto;
+    border:2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+h1{
+    text-align: center;
+}
+
+#container div{
+    height:100px;
+    width:100px;
+    color:white;
+    text-align: center;
+    font-size:1.5em;
+}
+#vio{
+    background-color: violet;
+}
+#ind{
+    background-color: indigo;
+}
+#blu{
+    background-color: blue;
+}
+#gre{
+    background-color: green;
+}
+#yel{
+    background-color: yellow;
+}
+#ora{
+    background-color: orange;
+}
+#red{
+    background-color: red;
+}
