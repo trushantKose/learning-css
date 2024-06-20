@@ -1,0 +1,11 @@
+/* Set your picture or any picture as the background
+of the div. "myPic". Also set transparency of this div to 50% */
+
+div{
+    width: 200px;
+    height: 200px;
+    background: pink;
+    background-image: url("back.jpeg");
+    background-size: 50%;
+    opacity: 50%;
+}

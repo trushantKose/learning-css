@@ -1,0 +1,8 @@
+/* using transform, skew box3 20deg along the x axis. */
+
+#box3{
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+    transform: skewX(20deg);
+}

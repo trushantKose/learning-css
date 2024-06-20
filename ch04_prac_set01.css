@@ -1,0 +1,11 @@
+/* Add a 2s transition on box1 for width changes.
+it should have 'ease-in' speed curve & 0.5s delay */
+#box1{
+    width: 100px;
+    height: 100px;
+    background: green;
+    transition: width 2s ease-in 0.5s;
+}
+#box1.hover{
+    width:600px;
+}
