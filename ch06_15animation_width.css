@@ -1,0 +1,19 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    animation-name: widthAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes widthAnimate{
+    from{
+        width: 10px;
+    }
+    to{
+        width: 400px;
+    }
+}

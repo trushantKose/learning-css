@@ -1,0 +1,22 @@
+/* Re-create the following layout using flexbox as closely as possible:
+-Take the container height & width as (50px, 900px) & child height &
+width as (50px, 80px) */
+
+/* -Use font-size as 24px */
+
+#navbar{
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border: 2px solid blue;
+    border-radius:10px;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+.option{
+    height:50px;
+    width: 80px;
+    font-size: 24px;
+}

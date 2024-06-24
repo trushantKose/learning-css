@@ -1,0 +1,15 @@
+/* Setting a container's display to grid will make all  grid items */
+#container{
+    height:300px;
+    width:600px;
+    background-color: black;
+    display: grid;
+}
+
+.item{
+    width:100px;
+    height:50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
